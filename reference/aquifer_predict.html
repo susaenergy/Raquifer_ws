@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Cumulative water influx prediction — aquifer_predict • Raquifer</title>
+<title>Generic function for cumulative water influx predictions — aquifer_predict • Raquifer</title>
 
 
 <!-- jquery -->
@@ -39,7 +39,7 @@
 
 
 
-<meta property="og:title" content="Cumulative water influx prediction — aquifer_predict" />
+<meta property="og:title" content="Generic function for cumulative water influx predictions — aquifer_predict" />
 <meta property="og:description" content="Generate a data frame of cumulative water influx estimates according to the class of 'aquifer_lst' and 'time_lst' objects" />
 
 
@@ -106,7 +106,7 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Cumulative water influx prediction</h1>
+    <h1>Generic function for cumulative water influx predictions</h1>
     
     <div class="hidden name"><code>aquifer_predict.Rd</code></div>
     </div>
@@ -130,6 +130,9 @@
     </tr>
     </table>
 
+    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
+
+    <p>a data frame of cumulative water influx estimates according to the class of 'aquifer_lst' and 'time_lst' objects</p>
     <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
 
     <p>Yildiz T, Khosravi A (2007).
@@ -163,11 +166,11 @@ ISSN 0149-2136, doi: <a href='https://doi.org/10.2118/949305-G'>10.2118/949305-G
 <span class='no'>results_01</span> <span class='kw'>&lt;-</span> <span class='fu'>aquifer_predict</span>(<span class='no'>aquifer_param_01</span>, <span class='no'>aquifer_time_1</span>)
 
 <span class='no'>results_01</span></div><div class='output co'>#&gt;         Date Time (days) We (MMbbl)
-#&gt; 1 2020-05-10           0  0.0000000
-#&gt; 2 2021-05-10         365  0.1764468
-#&gt; 3 2022-05-10         730  0.6069313
-#&gt; 4 2023-05-10        1095  1.1268676
-#&gt; 5 2024-05-09        1460  1.6674785</div><div class='input'>
+#&gt; 1 2020-05-12           0  0.0000000
+#&gt; 2 2021-05-12         365  0.1764468
+#&gt; 3 2022-05-12         730  0.6069313
+#&gt; 4 2023-05-12        1095  1.1268676
+#&gt; 5 2024-05-11        1460  1.6674785</div><div class='input'>
 </div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

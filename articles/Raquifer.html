@@ -181,7 +181,7 @@
 <span class="co">#&gt; [1] "day"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; $reference_date</span>
-<span class="co">#&gt; [1] "2020-05-10"</span>
+<span class="co">#&gt; [1] "2020-05-12"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; attr(,"class")</span>
 <span class="co">#&gt; [1] "day"  "time"</span>
@@ -233,12 +233,12 @@
 
 <span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="no">pred_veh</span>)
 <span class="co">#&gt;         Date Time (days)  We (MMbbl)</span>
-<span class="co">#&gt; 1 2020-05-10       0.000  0.00000000</span>
-<span class="co">#&gt; 2 2020-09-21     134.320  0.06185335</span>
-<span class="co">#&gt; 3 2022-10-17     890.235  1.27831951</span>
-<span class="co">#&gt; 4 2025-04-23    1809.305  4.19222802</span>
-<span class="co">#&gt; 5 2028-01-31    2822.180  8.46586625</span>
-<span class="co">#&gt; 6 2032-04-09    4352.990 15.65627937</span>
+<span class="co">#&gt; 1 2020-05-12       0.000  0.00000000</span>
+<span class="co">#&gt; 2 2020-09-23     134.320  0.06185335</span>
+<span class="co">#&gt; 3 2022-10-19     890.235  1.27831951</span>
+<span class="co">#&gt; 4 2025-04-25    1809.305  4.19222802</span>
+<span class="co">#&gt; 5 2028-02-02    2822.180  8.46586625</span>
+<span class="co">#&gt; 6 2032-04-11    4352.990 15.65627937</span>
 
 <span class="no">pred_veh</span> <span class="kw">%&gt;%</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span>(<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span>(<span class="kw">x</span> <span class="kw">=</span> <span class="no">`Time (days)`</span>, <span class="kw">y</span> <span class="kw">=</span> <span class="no">`We (MMbbl)`</span>)) +
   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span>(<span class="kw">size</span> <span class="kw">=</span> <span class="fl">3</span>, <span class="kw">color</span> <span class="kw">=</span> <span class="st">"blue"</span>) +
@@ -265,12 +265,12 @@
 
 <span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="no">pred_ykh</span>)
 <span class="co">#&gt;         Date Time (days) We (MMbbl)</span>
-<span class="co">#&gt; 1 2020-05-10       0.000  0.0000000</span>
-<span class="co">#&gt; 2 2020-09-21     134.320  0.1600501</span>
-<span class="co">#&gt; 3 2022-10-17     890.235  2.5380986</span>
-<span class="co">#&gt; 4 2025-04-23    1809.305  8.0646132</span>
-<span class="co">#&gt; 5 2028-01-31    2822.180 16.0265710</span>
-<span class="co">#&gt; 6 2032-04-09    4352.990 29.3508862</span>
+<span class="co">#&gt; 1 2020-05-12       0.000  0.0000000</span>
+<span class="co">#&gt; 2 2020-09-23     134.320  0.1600501</span>
+<span class="co">#&gt; 3 2022-10-19     890.235  2.5380986</span>
+<span class="co">#&gt; 4 2025-04-25    1809.305  8.0646132</span>
+<span class="co">#&gt; 5 2028-02-02    2822.180 16.0265710</span>
+<span class="co">#&gt; 6 2032-04-11    4352.990 29.3508862</span>
 
 <span class="no">pred_ykh</span> <span class="kw">%&gt;%</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span>(<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span>(<span class="kw">x</span> <span class="kw">=</span> <span class="no">`Time (days)`</span>, <span class="kw">y</span> <span class="kw">=</span> <span class="no">`We (MMbbl)`</span>)) +
   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span>(<span class="kw">size</span> <span class="kw">=</span> <span class="fl">3</span>, <span class="kw">color</span> <span class="kw">=</span> <span class="st">"blue"</span>) +
@@ -297,12 +297,12 @@
 
 <span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="no">pred_fetk</span>)
 <span class="co">#&gt;         Date Time (days)  We (MMbbl)</span>
-<span class="co">#&gt; 1 2020-05-10       0.000  0.00000000</span>
-<span class="co">#&gt; 2 2020-09-21     134.320  0.02884514</span>
-<span class="co">#&gt; 3 2022-10-17     890.235  1.08324703</span>
-<span class="co">#&gt; 4 2025-04-23    1809.305  3.94690549</span>
-<span class="co">#&gt; 5 2028-01-31    2822.180  8.44348341</span>
-<span class="co">#&gt; 6 2032-04-09    4352.990 16.33925334</span>
+<span class="co">#&gt; 1 2020-05-12       0.000  0.00000000</span>
+<span class="co">#&gt; 2 2020-09-23     134.320  0.02884514</span>
+<span class="co">#&gt; 3 2022-10-19     890.235  1.08324703</span>
+<span class="co">#&gt; 4 2025-04-25    1809.305  3.94690549</span>
+<span class="co">#&gt; 5 2028-02-02    2822.180  8.44348341</span>
+<span class="co">#&gt; 6 2032-04-11    4352.990 16.33925334</span>
 
 <span class="no">pred_fetk</span> <span class="kw">%&gt;%</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span>(<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span>(<span class="kw">x</span> <span class="kw">=</span> <span class="no">`Time (days)`</span>, <span class="kw">y</span> <span class="kw">=</span> <span class="no">`We (MMbbl)`</span>)) +
   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span>(<span class="kw">size</span> <span class="kw">=</span> <span class="fl">3</span>, <span class="kw">color</span> <span class="kw">=</span> <span class="st">"blue"</span>) +
@@ -328,12 +328,12 @@
 
 <span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="no">pred_nb_01</span>)
 <span class="co">#&gt;         Date Time (days) We (MMbbl)</span>
-<span class="co">#&gt; 1 2020-05-10       0.000 0.00000000</span>
-<span class="co">#&gt; 2 2020-09-21     134.320 0.03199772</span>
-<span class="co">#&gt; 3 2022-10-17     890.235 0.53782163</span>
-<span class="co">#&gt; 4 2025-04-23    1809.305 1.63239439</span>
-<span class="co">#&gt; 5 2028-01-31    2822.180 3.09768169</span>
-<span class="co">#&gt; 6 2032-04-09    4352.990 5.35540873</span>
+<span class="co">#&gt; 1 2020-05-12       0.000 0.00000000</span>
+<span class="co">#&gt; 2 2020-09-23     134.320 0.03199772</span>
+<span class="co">#&gt; 3 2022-10-19     890.235 0.53782163</span>
+<span class="co">#&gt; 4 2025-04-25    1809.305 1.63239439</span>
+<span class="co">#&gt; 5 2028-02-02    2822.180 3.09768169</span>
+<span class="co">#&gt; 6 2032-04-11    4352.990 5.35540873</span>
 
 <span class="no">pred_nb_01</span> <span class="kw">%&gt;%</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span>(<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span>(<span class="kw">x</span> <span class="kw">=</span> <span class="no">`Time (days)`</span>, <span class="kw">y</span> <span class="kw">=</span> <span class="no">`We (MMbbl)`</span>)) +
   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span>(<span class="kw">size</span> <span class="kw">=</span> <span class="fl">3</span>, <span class="kw">color</span> <span class="kw">=</span> <span class="st">"blue"</span>) +
@@ -359,12 +359,12 @@
 
 <span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="no">pred_nb_02</span>)
 <span class="co">#&gt;         Date Time (days) We (MMbbl)</span>
-<span class="co">#&gt; 1 2020-05-10       0.000  0.0000000</span>
-<span class="co">#&gt; 2 2020-09-21     134.320  0.5428142</span>
-<span class="co">#&gt; 3 2022-10-17     890.235  3.7996992</span>
-<span class="co">#&gt; 4 2025-04-23    1809.305  9.2278409</span>
-<span class="co">#&gt; 5 2028-01-31    2822.180 14.6559827</span>
-<span class="co">#&gt; 6 2032-04-09    4352.990 20.0841244</span>
+<span class="co">#&gt; 1 2020-05-12       0.000  0.0000000</span>
+<span class="co">#&gt; 2 2020-09-23     134.320  0.5428142</span>
+<span class="co">#&gt; 3 2022-10-19     890.235  3.7996992</span>
+<span class="co">#&gt; 4 2025-04-25    1809.305  9.2278409</span>
+<span class="co">#&gt; 5 2028-02-02    2822.180 14.6559827</span>
+<span class="co">#&gt; 6 2032-04-11    4352.990 20.0841244</span>
 
 <span class="no">pred_nb_02</span> <span class="kw">%&gt;%</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span>(<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span>(<span class="kw">x</span> <span class="kw">=</span> <span class="no">`Time (days)`</span>, <span class="kw">y</span> <span class="kw">=</span> <span class="no">`We (MMbbl)`</span>)) +
   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span>(<span class="kw">size</span> <span class="kw">=</span> <span class="fl">3</span>, <span class="kw">color</span> <span class="kw">=</span> <span class="st">"blue"</span>) +
@@ -430,12 +430,12 @@
 
 <span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="no">pred_fetk_02</span>)
 <span class="co">#&gt;         Date Time (days)  We (MMbbl)</span>
-<span class="co">#&gt; 1 2020-05-10       0.000 0.000000000</span>
-<span class="co">#&gt; 2 2020-09-21     134.320 0.004426176</span>
-<span class="co">#&gt; 3 2022-10-17     890.235 0.175334148</span>
-<span class="co">#&gt; 4 2025-04-23    1809.305 0.668533598</span>
-<span class="co">#&gt; 5 2028-01-31    2822.180 1.506005132</span>
-<span class="co">#&gt; 6 2032-04-09    4352.990 3.161133684</span>
+<span class="co">#&gt; 1 2020-05-12       0.000 0.000000000</span>
+<span class="co">#&gt; 2 2020-09-23     134.320 0.004426176</span>
+<span class="co">#&gt; 3 2022-10-19     890.235 0.175334148</span>
+<span class="co">#&gt; 4 2025-04-25    1809.305 0.668533598</span>
+<span class="co">#&gt; 5 2028-02-02    2822.180 1.506005132</span>
+<span class="co">#&gt; 6 2032-04-11    4352.990 3.161133684</span>
 
 <span class="no">pred_fetk_02</span> <span class="kw">%&gt;%</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span>(<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span>(<span class="kw">x</span> <span class="kw">=</span> <span class="no">`Time (days)`</span>, <span class="kw">y</span> <span class="kw">=</span> <span class="no">`We (MMbbl)`</span>)) +
   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span>(<span class="kw">size</span> <span class="kw">=</span> <span class="fl">3</span>, <span class="kw">color</span> <span class="kw">=</span> <span class="st">"blue"</span>) +
@@ -461,12 +461,12 @@
 
 <span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="no">pred_fetk_03</span>)
 <span class="co">#&gt;         Date Time (days) We (MMbbl)</span>
-<span class="co">#&gt; 1 2020-05-10       0.000  0.0000000</span>
-<span class="co">#&gt; 2 2020-09-21     134.320  0.5428142</span>
-<span class="co">#&gt; 3 2022-10-17     890.235  3.7996992</span>
-<span class="co">#&gt; 4 2025-04-23    1809.305  9.2278409</span>
-<span class="co">#&gt; 5 2028-01-31    2822.180 14.6559827</span>
-<span class="co">#&gt; 6 2032-04-09    4352.990 20.0841244</span>
+<span class="co">#&gt; 1 2020-05-12       0.000  0.0000000</span>
+<span class="co">#&gt; 2 2020-09-23     134.320  0.5428142</span>
+<span class="co">#&gt; 3 2022-10-19     890.235  3.7996992</span>
+<span class="co">#&gt; 4 2025-04-25    1809.305  9.2278409</span>
+<span class="co">#&gt; 5 2028-02-02    2822.180 14.6559827</span>
+<span class="co">#&gt; 6 2032-04-11    4352.990 20.0841244</span>
 
 <span class="no">pred_fetk_03</span> <span class="kw">%&gt;%</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span>(<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span>(<span class="kw">x</span> <span class="kw">=</span> <span class="no">`Time (days)`</span>, <span class="kw">y</span> <span class="kw">=</span> <span class="no">`We (MMbbl)`</span>)) +
   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span>(<span class="kw">size</span> <span class="kw">=</span> <span class="fl">3</span>, <span class="kw">color</span> <span class="kw">=</span> <span class="st">"blue"</span>) +
@@ -585,7 +585,7 @@
 <span class="co">#&gt; [1] "month"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; $reference_date</span>
-<span class="co">#&gt; [1] "2020-05-10"</span>
+<span class="co">#&gt; [1] "2020-05-12"</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; attr(,"class")</span>
 <span class="co">#&gt; [1] "month" "time"</span>
@@ -637,12 +637,12 @@
 
 <span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="no">pred_veh</span>)
 <span class="co">#&gt;         Date Time (months)    We (m3)</span>
-<span class="co">#&gt; 1 2020-06-09             1      0.000</span>
-<span class="co">#&gt; 2 2020-07-09             2   4236.423</span>
-<span class="co">#&gt; 3 2020-08-09             3  31650.466</span>
-<span class="co">#&gt; 4 2020-09-08             4  87609.327</span>
-<span class="co">#&gt; 5 2020-10-09             5 161084.687</span>
-<span class="co">#&gt; 6 2020-11-08             6 249479.619</span>
+<span class="co">#&gt; 1 2020-06-11             1      0.000</span>
+<span class="co">#&gt; 2 2020-07-11             2   4236.423</span>
+<span class="co">#&gt; 3 2020-08-11             3  31650.466</span>
+<span class="co">#&gt; 4 2020-09-10             4  87609.327</span>
+<span class="co">#&gt; 5 2020-10-11             5 161084.687</span>
+<span class="co">#&gt; 6 2020-11-10             6 249479.619</span>
 
 <span class="no">pred_veh</span> <span class="kw">%&gt;%</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span>(<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span>(<span class="kw">x</span> <span class="kw">=</span> <span class="no">`Time (months)`</span>, <span class="kw">y</span> <span class="kw">=</span> <span class="no">`We (m3)`</span>)) +
   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span>(<span class="kw">size</span> <span class="kw">=</span> <span class="fl">3</span>, <span class="kw">color</span> <span class="kw">=</span> <span class="st">"blue"</span>) +
